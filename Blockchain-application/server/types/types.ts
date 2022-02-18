@@ -6,3 +6,10 @@ export interface Block {
   hash: string;
   previousBlockHash: string;
 }
+
+export interface ITransaction {
+  sender: string;
+  recipient: string;
+  amount: number;
+  timestamp: number;
+}
